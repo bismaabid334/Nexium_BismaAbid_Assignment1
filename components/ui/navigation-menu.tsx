@@ -4,7 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
 import { ChevronDownIcon } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from '../../lib/utils';
 import { cva, type VariantProps } from "class-variance-authority";
 
 const NavigationMenu = React.forwardRef<
