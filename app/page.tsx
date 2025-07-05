@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { Navbar } from "@/components/ui/navigation-menu"; // Import from navigation-menu file
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Navbar } from "@components/ui/navigation-menu"; // Import from navigation-menu file
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@components/ui/select";
+import { Button } from "@components/ui/button";
+import { Card, CardContent } from "@components/ui/card";
 
 const quotes: Record<string, string[]> = {
   motivation: [
